@@ -68,9 +68,9 @@ h1{
 
 .hero h1{
     position:absolute;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
-    opacity: 50%;
+   
 }
 
 .hero img { 
@@ -92,11 +92,10 @@ h1{
     position: absolute;
     top: 300px;
     float: right;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     background-position-x: 2em;
     background-position-y: 2em;
     text-align: left;
-    opacity: 50%;
     padding-left: 2em;
     padding-right: 2em;
     width: 54em;
