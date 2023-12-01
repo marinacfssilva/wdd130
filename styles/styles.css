@@ -108,6 +108,7 @@ header, .grid, footer {
 main {
     grid-column: 2/3;
     margin: 1rem;
+    grid-column: 2;
 }
 
 aside {
