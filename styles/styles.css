@@ -3,13 +3,13 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing:border-box;
 }
 
 body{
     font-size:16px;
     font-family:Roboto, sans-serif;
+    display: block;
 }
 
 
@@ -32,6 +32,7 @@ nav a{
 }
 h1 {
     color: steelblue;
+    border-bottom:  1mm double ;
 }
 img {
     width: 150px;
@@ -94,7 +95,24 @@ footer{
     padding-left: 1rem;
 }
 
-header, footer {
+header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
+}
+
+.grid {
+    display:grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
