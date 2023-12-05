@@ -30,12 +30,35 @@ body{
 
 header{
     padding:20px;
-    background-color: white;
+    background-color:white;  
     width: 100%;
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+    gap: 3rem;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header img {
+	margin: 0 0.25rem 0 1rem;
+    padding-left: 2rem;
+	width: 180px;
+	height: auto;
+  
+}
+
+header nav{
+    font-size: 16;
+    padding-left: 1px;
+    top: 200px;
+    align-items: center;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family:var(--heading-font);
+    font-size: 2rem;
     color:var(--primary-color);
     padding: 25px;
 }
@@ -61,7 +84,7 @@ p{
 
 h1{
     position:relative;
-    top: 200px;
+    top: 230px;
     left: 300px;
     width:400px;
 }
@@ -114,3 +137,4 @@ section img {
 hero{
     position:relative;
 }
+
