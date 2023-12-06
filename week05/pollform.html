@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>WWD 130 | HTML Form - User Poll</title>
-        <link rel="pollform" href="styles.pollform.css">
+        <link rel="stylesheet" href="styles/pollform.css">
     </head>
     <body>
         <header>
@@ -30,7 +30,7 @@
                 <fieldset>
                     <legend>Questions</legend>
                         <!--form elements will go here-->
-                        <div class="form-item columm1">
+                    <div class="form-item columm1">
                         <label for="browser">What is your favorite internet browser?</label>
                         <select id="browser" name="browser">
                             <option value="chrome">Chrome</option>
@@ -40,9 +40,11 @@
                             <option value="brave">Brave</option>
                             <option value="other">Other</option>
                         </select>
-                    </div><br>
-                        <br>
-                        <div class="form-item columm1">
+                    </div>
+                    <br>
+                    <br>
+
+                    <div class="form-item columm1">
                         <label for="pet1">Do you have a household pet?</label>
                         <input type="checkbox" id="pet1" name="yes" value="yes">
                         <label for="pet1">Yes</label>
@@ -51,8 +53,9 @@
                         <br>
                         <label for="feedback">List the places you have lived:</label>
                         <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands. Tibuktu Mali"></textarea>
-                    </fieldset>
-                     </div><br>
+                    </div>
+                </fieldset>
+                     <br>
 
                     <button type="submit">Submit Poll</button>
             </form>
