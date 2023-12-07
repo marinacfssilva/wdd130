@@ -10,7 +10,7 @@
 body {
     font-family: Comfortaa, sans-serif;
     font-size: 1.1em;
-    background:#191970;
+    background:#131355;
 }
 
 header {
@@ -30,7 +30,7 @@ form {
     padding: 1rem;
     border: 1px solid navy;
     border-radius: 0.5rem;
-    background-color:rgb(168, 246, 246);
+    background-color:rgb(169, 215, 215);
     display: grid;
 }
 
@@ -88,18 +88,10 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
+    padding-top: 10px;;
     width: 650px;
     text-align: center;
     font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
-
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
-
-.column2 {
-    grid-template-columns: 1fr 2fr;
+    color:#fff;
+    border-top: 1px dotted #ccc;
 }
