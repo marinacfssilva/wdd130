@@ -9,8 +9,9 @@
 
 body {
     font-family: Comfortaa, sans-serif;
-    font-size: 1.1em;
-    background:#191970;
+    font-size: 1.2em;
+    color:#191970;
+    background: #191970;
 }
 
 header {
@@ -30,7 +31,7 @@ form {
     padding: 1rem;
     border: 1px solid navy;
     border-radius: 0.5rem;
-    background-color:rgb(168, 246, 246);
+    background-color:lightblue;
     display: grid;
 }
 
@@ -38,43 +39,49 @@ fieldset {
     display: grid;
     grid-gap: 0.5rem;
     margin: 1rem;
-    border: 5px double navy;
+    border: 1px dotted black;
     padding: 1rem;
 }
 
-
+legend {
+    padding: 0.5rem;
+    color:navy;
+    font-size: 1.3em;
+}
 
 label, input, button, select, textarea {
     font-family: Roboto, sans-serif;
 }
 
 label {
-    text-align:left;
-    padding-left: 1rem;
-    font-family: Roboto, sans-serif;
-    color:#191970;
-    font-weight: 500;
+    text-align:right;
+    padding-right: 1rem;
 }
 
 input, select, textarea {
-    padding-left: .8rem;
-    font-size: 1.0rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
 }
 
-p {
-    text-align:left;
-    padding-left: 1rem;
-}
-input[type=text] {
-    width: 550px;
-    height: 25px;
+input[type=checkbox] {
+    width: 20px;
+    height: 22px;
     vertical-align: bottom;
 }
 
+input[type=text] {
+    width: 430px;
+    height: 25px;
+    vertical-align: bottom;
+}
+input[type=email] {
+    width: 467px;
+    height: 25px;
+}
 
 button {
     margin: 1rem;
-    background-color:#191970;
+    background-color: navy;
     color: #fff;
     border: none;
     border-radius: .5rem;
