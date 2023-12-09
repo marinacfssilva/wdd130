@@ -74,6 +74,7 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
 }
 
+
 p{
     padding: 20px;
     font-family: var(--paragraph-font);
@@ -104,9 +105,16 @@ h2,h3,h4,h5,h6 {
     align-content:center;
 
 }
+
+h6 {
+    font-size: 1.6em;
+    color:#a2c5ed;
+    text-decoration: underline;
+   
+}
 .hero h1{
     position:absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
    
 }
@@ -119,15 +127,18 @@ h2,h3,h4,h5,h6 {
 }
 
 .hero p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color:#a2c5ed
     
 }
-.small img {
-    top: 500px;
+iframe {
+    top: 120px;
+    left: 550px;
     float: right;
-    width: 280px;
+    width: 270px;
+    height: 215px;
     opacity: 100%;
-   
+    position:absolute;
 }
 
 .small {
@@ -160,6 +171,7 @@ section {
   border-top-left-radius: 50px;
   border-spacing: 300px;
   padding-left: 30px;
+ 
   
 }
 
@@ -184,7 +196,7 @@ article {
     margin: 1px;
   }
 
-  h2{
+h2{
     position:relative;
     top:20px;  
     left: 200px;
@@ -283,14 +295,6 @@ button:hover {
     background-color:#505f1c;
 }
 
-footer {
-    margin: 1rem auto 0;
-    width: 650px;
-    text-align: center;
-    font-size: 0.8em;
-    color: #777;
-    border-top: 1px solid #ccc;
-}
 
 .column1 {
     grid-template-columns: 3fr 1fr;
@@ -299,4 +303,10 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
+}
+
+figcaption {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    color:#2f64a8;
 }
