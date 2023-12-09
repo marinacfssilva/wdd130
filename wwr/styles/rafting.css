@@ -188,14 +188,14 @@ article {
     margin: 1px;
 }
 
-  h2{
+h2{
     position:relative;
     top:20px;  
     left: 200px;
     width: 500px;
 }
 
-  .team img{
+.team img{
     width: 230px;
     height: auto;
 }
@@ -225,8 +225,93 @@ article {
     display:flex;
     justify-content:space-around;
     padding: 20px;
-    gap: 350px;
+    gap: 50px;
 }
+figcaption {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    color:#2f64a8;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px double #718333;
+    border-radius: 0.5rem;
+    background-color:#e2e9ac;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px dotted #627326;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color:#505f1c;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    padding-right: 1rem;
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+input[type=text] {
+    
+    width: 430px;
+    height: 25px;
+    vertical-align: bottom;
+}
+input[type=email] {
+    width: 370px;
+    height: 25px;
+}
+
+
+
+select {
+    width: 332px;
+    height: 40px;
+    font-size: 1.0rem;
+}
+
+textarea {
+
+    width: 530px;
+    height: 250px;
+}
+
+button {
+    margin: 1rem;
+    background-color: #505f1c;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+}
+
 figcaption {
     font-family: Roboto, sans-serif;
     font-size: 0.9rem;
