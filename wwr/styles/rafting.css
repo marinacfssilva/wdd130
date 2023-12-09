@@ -227,3 +227,8 @@ article {
     padding: 20px;
     gap: 350px;
 }
+figcaption {
+    font-family: Roboto, sans-serif;
+    font-size: 0.9rem;
+    color:#2f64a8;
+}
