@@ -258,11 +258,13 @@ label, input, button, select, textarea {
 label {
     text-align:right;
     padding-right: 1rem;
+    font-family: Roboto, sans-serif;
+    color: black;
 }
 
 input, select, textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 input[type=checkbox] {
@@ -272,6 +274,7 @@ input[type=checkbox] {
 }
 
 input[type=text] {
+    
     width: 430px;
     height: 25px;
     vertical-align: bottom;
@@ -279,6 +282,18 @@ input[type=text] {
 input[type=email] {
     width: 370px;
     height: 25px;
+}
+
+select {
+    width: 332px;
+    height: 40px;
+    font-size: 1.0rem;
+}
+
+textarea {
+
+    width: 530px;
+    height: 250px;
 }
 
 button {
