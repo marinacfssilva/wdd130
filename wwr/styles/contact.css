@@ -104,12 +104,6 @@ h2,h3,h4,h5,h6 {
     align-content:center;
 }
 
-h6 {
-    font-size: 1.6em;
-    color:#a2c5ed;
-    text-decoration: underline;
-   
-}
 .hero h1{
     position:absolute;
     background-color: rgba(0, 0, 0, 0.7);
