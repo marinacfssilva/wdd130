@@ -96,11 +96,7 @@ h1{
     width:400px;
 }
 
-h2,h3,h4,h5,h6 {
-    display:flex;
-    align-content:center;
 
-}
 .hero h1{
     position:absolute;
     background-color: rgba(0, 0, 0, 0.7);
@@ -152,8 +148,6 @@ iframe {
     color:white;
     text-align: center;
 }
-
-
 
 section {
   max-width: 960px;
@@ -285,8 +279,6 @@ input[type=email] {
     width: 370px;
     height: 25px;
 }
-
-
 
 select {
     width: 332px;
