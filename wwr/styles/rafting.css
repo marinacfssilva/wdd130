@@ -245,7 +245,7 @@ fieldset {
 
 legend {
     padding: 0.5rem;
-    color:#505f1c;
+    color:#374113;
     font-size: 1.3em;
 }
 
@@ -254,7 +254,7 @@ label, input, button, select, textarea {
     font-weight: 400;
     padding-right: 1rem;
     font-family: Roboto, sans-serif;
-    color: black;
+    color:#374113;
 }
 
 
