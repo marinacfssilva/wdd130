@@ -157,6 +157,8 @@ section {
     border-top-left-radius: 50px;
     border-spacing: 300px;
     padding-left: 30px;
+    margin-left: 10px;
+
 }
 
 .history{
@@ -218,6 +220,7 @@ h2{
     justify-content:space-around;
     padding: 20px;
     gap: 50px;
+    margin-left: 10px;
 }
 figcaption {
     font-family: Roboto, sans-serif;
@@ -411,9 +414,9 @@ figcaption {
     "img title"
     "img bd"
     "ft ft";
-    display: grid;
     grid-template-columns: 150px 3fr;
     grid-template-rows: auto 1fr auto;
+    width: 890px;
 }
       
 .media > .title { grid-area: title; }
@@ -445,7 +448,7 @@ figcaption {
       
 .media.media-flip .img {
     float: right;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0;
 }
       
 .media > * {
@@ -453,32 +456,25 @@ figcaption {
 }
       
 .media.media-flip > * {
-    margin: 0 160px 0 0;
+    margin: 0 60px 0 0;
+    
 }
-      
-.media .img,
-.media.media-flip .img {
-    width: auto;
-    margin: 0;
-}
-
-
-
-      
+  
 .media.media-flip {
-    grid-template-columns: 3fr 150px ;
+    grid-template-columns: 3fr 250px ;
     grid-template-areas:
     "title img"
     "bd img"
     "ft ft";
 }
+
 .callaction {
     position:relative;
-    left:400px;
+    left:390px;
     width:300px;
 }
 .callaction1 {
     position:relative;
-    left:100px;
-    width:300px;
+    left: 20px;
+    width: 300px;
 }
