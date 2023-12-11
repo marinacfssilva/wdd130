@@ -470,11 +470,13 @@ figcaption {
 
 .callaction {
     position:relative;
-    left:390px;
-    width:300px;
+    left: 300px;
+    width:400px;
+    height: auto;
 }
 .callaction1 {
     position:relative;
     left: 20px;
-    width: 300px;
+    width: 400px;
+    height: auto;
 }
