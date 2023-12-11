@@ -92,8 +92,8 @@ p{
 h1{
     position:relative;
     top: 230px;
-    left: 300px;
-    width:400px;
+    left: 200px;
+    width:600px;
 }
 
 
@@ -306,4 +306,32 @@ figcaption {
     font-family: Roboto, sans-serif;
     font-size: 0.9rem;
     color:#2f64a8;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 80%; 
+    max-width: 680px;
+    padding-left: 2rem;
+    padding-bottom: 50px;
+    font-family:  Comfortaa, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+.table > div {
+  margin: 2px;
+  background-color:#e2e9ac;
+  padding: 50px;
+  color:#374113;
+}
+
+.table > div:nth-child(3n+2) {
+  background-color:#bfc592;
+  color:#505f1c;
+}
+
+.table > div:nth-child(3n+3) {
+  background-color:#82875f;
+  color:#e2e9ac;
 }
