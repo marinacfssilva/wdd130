@@ -553,3 +553,160 @@ tr:nth-child(even) {
     display: grid;
 }
 
+
+
+.container {
+    display: grid;
+    width: 900px;
+    height: 640px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 100px;
+    grid-gap: 1rem;
+    padding-left: 6em;
+    grid-template-areas:
+        "header header header"
+        "sidebar content-1 content-1"
+        "sidebar content-2 content-2"
+        "content-3 content-3 content-3"
+       
+  }
+  .header {
+    grid-area: header;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content-1 {
+    grid-area: content-1;
+  }
+  
+  .content-2 {
+    grid-area: content-2;
+  }
+
+  .content-3 {
+    grid-area: content-3;
+  }
+
+
+
+  /* OTHER STYLES CCS GRID Layout HOME*/
+  
+   .body {
+    display:flex;
+    justify-content:center;
+    padding: 20px;
+    font-family: Confortaa, sans-serif;
+  }
+  
+    .item {
+    background-color:#505f1c;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.3);
+    color:#ccc;
+    border-radius: 4px;
+    border: #505f1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .item footer{
+
+    width: 300px;
+  }
+  
+  .content-1 {
+    background-color:#e2e9ac;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.3);
+    color:#ccc;
+    border-radius: 4px;
+    border: #e2e9ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+   
+  }
+ 
+
+  
+
+  .header {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: Confortaa, sans-serif;
+  }
+
+  .content-1 img {
+    position:relative;
+    width: 480px;
+  
+
+  }
+
+  .content-1 p {
+    position:absolute;
+    top:1180px;
+    font-size:1.2rem;
+    font-weight: bold;
+    color:black;
+   
+  }
+
+  .sidebar{
+    background-color:#718333;
+  }
+  
+  .sidebar img {
+  width: 100%;
+  }
+  
+.sidebar p{
+    position:absolute;
+    top:1290px;
+    font-size:1.4rem;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+    color:black;
+    text-align: center;
+}
+
+.content-3 img {
+    position:relative;
+    width: 804px;
+
+}
+
+.content-3 p {
+    position:absolute;
+    top:1400px;
+    font-size:1.4rem;
+    font-weight: bold;
+    font-family: var(--paragraph-font);
+    color:black;
+    text-align: center;
+   
+
+}
+
+.item button {
+    position:absolute;
+    top:1290px;
+    left:500px;
+    font-size:1.4rem;
+    font-weight: bold;
+    text-align: center;
+    background-color:#e2e9ac;
+    color:#374113
+}
+
+
+
+
+    
+  
+  
