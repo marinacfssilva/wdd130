@@ -326,6 +326,8 @@ div button {
     font-size: 1.4rem;
     width:200px;
     position:absolute;
+    top:60px;
+    left:400px;
 } 
 
 
