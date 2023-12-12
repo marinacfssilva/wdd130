@@ -667,7 +667,7 @@ tr:nth-child(even) {
   
 .sidebar p{
     position:absolute;
-    top:1290px;
+    top:1300px;
     font-size:1.4rem;
     font-weight: bold;
     font-family: var(--paragraph-font);
@@ -695,7 +695,7 @@ tr:nth-child(even) {
 
 .item button {
     position:absolute;
-    top:1290px;
+    top:1305px;
     left:500px;
     font-size:1.4rem;
     font-weight: bold;
