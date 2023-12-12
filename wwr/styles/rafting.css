@@ -290,7 +290,10 @@ input[type=text] {
     vertical-align: bottom;
 }
 
-
+input[type=email] {
+    width: 370px;
+    height: 25px;
+}
 
 select {
     width: 332px;
@@ -524,14 +527,3 @@ tr:nth-child(even) {
     display: grid;
 }
 
-input[type=email] {
-    width: 370px;
-    border-radius: 20px;
-    height: 43px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    min-width: auto;
-    position: relative;
-    top: 4px;
-  
-    }
