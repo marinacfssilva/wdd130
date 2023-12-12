@@ -290,10 +290,7 @@ input[type=text] {
     vertical-align: bottom;
 }
 
-input[type=email] {
-    width: 370px;
-    height: 25px;
-}
+
 
 select {
     width: 332px;
@@ -317,12 +314,6 @@ button {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 } 
 
-
-figcaption {
-    font-family: Roboto, sans-serif;
-    font-size: 0.9rem;
-    color:#2f64a8;
-}
 
 table {
     display: flex;
@@ -534,6 +525,7 @@ tr:nth-child(even) {
 }
 
 input[type=email] {
+    width: 370px;
     border-radius: 20px;
     height: 43px;
     margin-bottom: 10px;
@@ -541,5 +533,5 @@ input[type=email] {
     min-width: auto;
     position: relative;
     top: 4px;
-    width: 100%;
+  
     }
