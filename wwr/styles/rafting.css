@@ -330,6 +330,19 @@ div button {
     left:400px;
 } 
 
+article button {
+    margin: 2rem;
+    background-color: #505f1c;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.4rem;
+    width:200px;
+    position:absolute;
+    top:160px;
+    left:600px;
+} 
 
 table {
     display: flex;
@@ -526,7 +539,7 @@ tr:nth-child(even) {
 .newsletter {
     position:absolute;
     text-align: left;
-    top:350px;
+    top:550px;
     left: 180px;
 }
 
