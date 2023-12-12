@@ -315,21 +315,24 @@ figcaption {
 
 table {
     display: flex;
-    grid-template-columns: 1fr 1fr 80%; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     padding-left: 3rem;
     padding-bottom: 30px;
     font-family:  Roboto, sans-serif;
     font-size: 0.9rem;
-    width: 760px;
+    width: 880px;
     border:1px solid black;
     padding: 10px;
 }
 
 td, th {
     border: 1px solid #dddddd;
+    font-size: 1.1rem;
     text-align: left;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
  
 }
 
@@ -342,6 +345,10 @@ th {
 
 td{
     font-family:  Roboto, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
 .wrapper {
