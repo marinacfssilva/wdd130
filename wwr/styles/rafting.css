@@ -571,6 +571,11 @@ th {
   
 .content-2 {
     grid-area: content-2;
+    width:590px;
+    padding-left: 20px;
+    font-size: 1.0rem;
+    align-items: flex-start;
+
 }
 
 .content-3 {
@@ -686,8 +691,9 @@ th {
 
 .item button {
     position:absolute;
-    top:1319px;
-    left:500px;
+    width:343px;
+    top:1289px;
+    left:540px;
     font-size:1.4rem;
     font-weight: bold;
     text-align: center;
