@@ -614,7 +614,7 @@ th {
   
 .content-1 {
     grid-area: content-1;
-    background-color:#e2e9ac;
+    background-color:#505f1c;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.3);
     color:#ccc;
     border-radius: 4px;
@@ -650,6 +650,7 @@ th {
     left:410px;
     font-size:1.1rem;
     color:#2f64a8;
+    background-color: rgba(0, 0, 0, 0.2 1.0);
    
 }
 
