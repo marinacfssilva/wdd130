@@ -576,7 +576,7 @@ th {
     font-size: 1.0rem;
     align-items: flex-start;
     background-color: #505f1c;
-    color:#e2e9ac;
+    color:#fff;
 
 }
 
@@ -649,7 +649,7 @@ th {
     top:1180px;
     left:410px;
     font-size:1.1rem;
-    color:#2f64a8;
+    color:#fff;
 
    
 }
@@ -669,8 +669,8 @@ th {
     top:1320px;
     font-size:1.2rem;
     font-family: var(--paragraph-font);
-    color:#e2e9ac;
-    background-color:#718333;
+    color:#fff;
+   
     text-align: center;
 }
 
