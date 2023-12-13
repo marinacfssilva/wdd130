@@ -317,7 +317,7 @@ button {
 } 
 
 div button {
-    margin: 2rem;
+    margin: 1rem;
     background-color: #505f1c;
     color: #fff;
     border: none;
@@ -326,7 +326,7 @@ div button {
     font-size: 1.4rem;
     width:200px;
     position:absolute;
-    top:60px;
+    top:px;
     left:400px;
 } 
 
