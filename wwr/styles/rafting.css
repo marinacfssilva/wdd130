@@ -340,10 +340,10 @@ article button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.4rem;
-    width:200px;
+    width:300px;
     position:absolute;
-    top:160px;
-    left:600px;
+    top:210px;
+    left:250px;
 } 
 
 table {
@@ -577,6 +577,7 @@ th {
     align-items: flex-start;
     color:#ccc;
     background-color:rgba(0, 0, 0, 0.5);
+    
 
 }
 
