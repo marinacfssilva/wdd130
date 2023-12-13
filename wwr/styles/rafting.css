@@ -575,6 +575,8 @@ th {
     padding-left: 20px;
     font-size: 1.0rem;
     align-items: flex-start;
+    background-color: #505f1c;
+    color:#e2e9ac;
 
 }
 
@@ -663,11 +665,11 @@ th {
   
 .sidebar p{
     position:absolute;
-    top:1340px;
-    font-size:1.4rem;
-  
+    top:1320px;
+    font-size:1.2rem;
     font-family: var(--paragraph-font);
     color:#e2e9ac;
+    background-color:#718333;
     text-align: center;
 }
 
@@ -684,6 +686,7 @@ th {
     font-size:1.4rem;
     font-family: var(--paragraph-font);
     color:#374113;
+    background-color: rgb(253, 250, 250. 1.0);
     text-align: center;
    
 
