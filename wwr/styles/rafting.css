@@ -575,6 +575,8 @@ th {
     padding-left: 20px;
     font-size: 1.0rem;
     align-items: flex-start;
+    color:#ccc;
+    background-color:rgba(0, 0, 0, 0.5);
     
 
 }
