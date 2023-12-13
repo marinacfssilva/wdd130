@@ -638,9 +638,9 @@ th {
 .content-1 p {
     position:absolute;
     top:1180px;
-    font-size:1.2rem;
-    font-weight: bold;
-    color:black;
+    left:407px;
+    font-size:1.3rem;
+    color:#031e41;
    
 }
 
@@ -656,11 +656,11 @@ th {
   
 .sidebar p{
     position:absolute;
-    top:1300px;
+    top:1340px;
     font-size:1.4rem;
-    font-weight: bold;
+  
     font-family: var(--paragraph-font);
-    color:black;
+    color:#fff;
     text-align: center;
 }
 
@@ -672,11 +672,11 @@ th {
 
 .content-3 p {
     position:absolute;
-    top:1400px;
+    top:1418px;
+    left:300px;
     font-size:1.4rem;
-    font-weight: bold;
     font-family: var(--paragraph-font);
-    color:black;
+    color:#031e41;
     text-align: center;
    
 
@@ -684,7 +684,7 @@ th {
 
 .item button {
     position:absolute;
-    top:1305px;
+    top:1320px;
     left:500px;
     font-size:1.4rem;
     font-weight: bold;
