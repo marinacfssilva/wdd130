@@ -326,7 +326,7 @@ div button {
     font-size: 1.4rem;
     width:200px;
     position:absolute;
-    top:px;
+    top: 80px;
     left:400px;
 } 
 
@@ -638,8 +638,8 @@ th {
 .content-1 p {
     position:absolute;
     top:1180px;
-    left:407px;
-    font-size:1.3rem;
+    left:410px;
+    font-size:1.2rem;
     color:#031e41;
    
 }
