@@ -647,7 +647,7 @@ th {
     top:1180px;
     left:410px;
     font-size:1.1rem;
-    color:#031e41;
+    color:#2f64a8;
    
 }
 
@@ -667,7 +667,7 @@ th {
     font-size:1.4rem;
   
     font-family: var(--paragraph-font);
-    color:#fff;
+    color:#e2e9ac;
     text-align: center;
 }
 
@@ -683,7 +683,7 @@ th {
     left:300px;
     font-size:1.4rem;
     font-family: var(--paragraph-font);
-    color:#031e41;
+    color:#374113;
     text-align: center;
    
 
@@ -698,7 +698,7 @@ th {
     font-weight: bold;
     text-align: center;
     background-color:#e2e9ac;
-    color:#374113
+    color:#374113;
 }
 
 
