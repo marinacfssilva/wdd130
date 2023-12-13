@@ -376,10 +376,6 @@ th {
 }
 
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
 .wrapper {
     display: grid;
     grid-template-columns: 100px 100px 100px;
